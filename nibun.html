@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>二分法シミュレータ</title>
+  <link href="simu.css" rel="stylesheet" type="text/css">
+  <script src="nibun.js"></script>
+  <!-- Plotly.js CDN -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+  <h1>二分法シミュレータ</h1>
+  <h2>x^3 + x - 1 の二分法による数値計算</h2>
+  <div>
+    <div>
+      <label for="aInput">a:</label>
+      <input type="number" id="aInput" step="0.01" value="0">
+      <label for="bInput">b:</label>
+      <input type="number" id="bInput" step="0.01" value="1">
+      <button id="calculateButton">計算</button>
+      <p id="output"></p>
+      <p id="output2"></p>
+      <p id="output3"></p>
+      <p id="resultText"></p>
+    </div>
+    <!-- グラフ化 -->
+    <div id="graph"></div>
+  </div>
+  
+</body>
+</html>

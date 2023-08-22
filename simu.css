@@ -1,0 +1,40 @@
+/* #output {
+    position: absolute;
+    top: 0;
+    
+    font-size: 18px;
+    font-weight: bold;
+    /* padding: 10px; */
+
+      #resultText {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 10px;
+
+      }
+      
+      #output {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 10px;
+      }
+
+      #output2 {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 10px;
+      }
+
+      #output3 {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        margin-right: 10px;
+      }
+      .title {
+        font-weight: bold;
+      }
+          
